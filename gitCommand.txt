@@ -1,0 +1,35 @@
+		git config --list
+login:  git config --global user.name "username"
+	git config --global user.email "email"
+
+1. ssh key generate     :  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+2. git init(one time)   :  git init
+
+3. one file upload      :  git add fileName
+
+4. all file upload      :  git add .
+
+5. check status         :  git status
+
+6. commit               :  git commit -m "comment"
+
+7. git remote add origin:  (from github)
+
+8. push                 :  git push origin master             
+
+9. download(pool)	:  git clone (from github)
+
+
+		After change or edit file ->
+
+1. file reupload        :  git add fileName
+
+2.  check status        : 
+
+3.  commit              : 
+
+4.  push                : 
+
+----------------
+1. Clone Updated file  : git pull (from github)
